@@ -63,8 +63,6 @@ app_options_list=[{'label': i, 'value': i} for i in available_app]+[{'label': 'A
 available_year = df['Year'].unique()
 year_options_list=[{'label': i, 'value': i} for i in available_year]+[{'label': 'All', 'value': 'All'}]
 
-
-
 app.layout = html.Div([
 
     html.Div([
